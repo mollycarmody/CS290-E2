@@ -1,10 +1,10 @@
-#OpenSpace E2 HW
+# OpenSpace E2 HW
 Molly Carmody, Kaitlyn McCarthy, Timmy Huang
 
-##Overview
+## Overview
 This project is for the E2 assignment of our CS 290 course. The assignment seeks to test and apply our learning from a class lesson React.js. In this project, we developed a website that hosts a series of favorite shows. Each show image can be clicked, to redirect to a page detailing more info about the show, or favorited, by clicking the heart icon below the picture.
-##Running
-###Dependencies
+## Running
+### Dependencies
 1. npm install --save react-star-ratings
 2. npm install react-bootstrap bootstrap
 3. npm install react-router-dom
@@ -13,7 +13,7 @@ This project is for the E2 assignment of our CS 290 course. The assignment seeks
 to run: Navigate to the project folder and run npm start
 
 
-##Structure
+## Structure
 The React component structure is as follows:
 -App
 --Headbar (navigation bar maintained at top of every page)
@@ -23,16 +23,16 @@ The React component structure is as follows:
 
 
 ## Features Included
-###react Router
+### react Router
 To navigate from the Collections component to the specific details page for a show, we use react router. When you click on the image of the show, the details component is loaded with the specific detail passed in as props for that show.
 
-###Favoriting
+### favoriting
 In order to enhance our application, we decided to implement a "favorite" feature. Under each image is a heart icon. When clicked, the "favorite" state of the item toggles, thereby changing the color of the heart icon between white and red. Multiple items can be favorited and unfavorited.
 
-###css
+### css
 We also decided to add some css to make the page more appealing as well as drive a bit of user interaction. When a user hovers over the image icons, they grow. This was intended to encourage the user to click the image and understand it as an "option", leading to another page. Also, when the user hovers over both the image and the icon, the cursor type changes.
 
-###Bootstrap and StarRatings
+### Bootstrap and StarRatings
 To expedite the development process, we used Bootstrap and StarRatings. StarRatings allows you to show a custom number of stars (out of a total defined rating). We used this on our details page for each of the items/shows.  
 
 
